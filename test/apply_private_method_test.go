@@ -1,11 +1,10 @@
 package test
 
 import (
-	"github.com/agiledragon/gomonkey/v2/test/fake"
+	"github.com/ml444/gomonkey/test/fake"
 	"testing"
 
-	. "github.com/agiledragon/gomonkey/v2"
-	. "github.com/smartystreets/goconvey/convey"
+	. "github.com/ml444/gomonkey"
 )
 
 func TestApplyPrivateMethod(t *testing.T) {

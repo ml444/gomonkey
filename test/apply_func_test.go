@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	. "github.com/agiledragon/gomonkey/v2"
-	"github.com/agiledragon/gomonkey/v2/test/fake"
+	. "github.com/ml444/gomonkey"
+	"github.com/ml444/gomonkey/test/fake"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

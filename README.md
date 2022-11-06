@@ -32,17 +32,13 @@ gomonkey is a library to make monkey patching in unit tests easy, and the core i
   - Windows
 
 ## Installation
-- below v2.1.0, for example v2.0.2
-```go
-$ go get github.com/agiledragon/gomonkey@v2.0.2
-```
-- v2.1.0 and above, for example v2.2.0
-```go
-$ go get github.com/agiledragon/gomonkey/v2@v2.2.0
+```shell
+$ go get github.com/agiledragon/gomonkey@v2.9.1
 ```
 
+
 ## Test Method
-```go
+```shell
 $ cd test 
 $ go test -gcflags=all=-l
 ```
